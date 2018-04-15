@@ -1,0 +1,112 @@
+﻿<Page x:Class="EstateMgr.EstateWindow"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:sys="clr-namespace:System;assembly=mscorlib"
+      xmlns:model="clr-namespace:EstateMgrCore.Models;assembly=EstateMgrCore"
+      xmlns:local="clr-namespace:EstateMgr.Converters"
+      mc:Ignorable="d" 
+      d:DesignHeight="620" d:DesignWidth="1100"
+      Title="EstateWindow">
+
+    <Page.Resources>
+        <local:Base64StringToBitmapImageConverter x:Key="Base64StringToBitmapImageConverter"/>
+        <Style x:Key="Titre" TargetType="TextBlock">
+            <Setter Property="TextTrimming" Value="None" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="Margin" Value="0,0,5,0" />
+            <Setter Property="TextAlignment" Value="Right" />
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+
+        <Style x:Key="Description" TargetType="TextBlock">
+            <Setter Property="TextTrimming" Value="None" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="Margin" Value="0,0,5,0" />
+            <Setter Property="Foreground" Value="#FF004CFF"/>
+        </Style>
+
+        <ObjectDataProvider x:Key="typeEstate"
+                            MethodName="GetValues"
+                            ObjectType="{x:Type sys:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="model:Estate+typeEstate"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+    </Page.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="85"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="220"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <ListBox Grid.Row="0" Grid.RowSpan="4" ItemsSource="{Binding Estates}" SelectedItem="{Binding SelectedEstate}" >
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Vertical">
+                        <Border BorderBrush="Black" Background="Gray" Name="itemBorder" Width="275">
+                            <StackPanel Orientation="Horizontal">
+
+                                <TextBlock Text="Type :" Style="{StaticResource Titre}" />
+                                <TextBlock Text="{Binding Type}" Foreground="White" />
+
+                            </StackPanel>
+                        </Border>
+                    </StackPanel>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ListBox>
+
+        <ComboBox Grid.Column="1" Grid.Row="0" Margin="10,23,716,32.8"
+                  SelectedItem="{Binding TypeEstate}"
+                  ItemsSource="{Binding Source={StaticResource typeEstate}}"/>
+        <ComboBox Grid.Column="1" Grid.Row="0" Margin="182,23,544,32.8"  />
+        <ComboBox Grid.Column="1" Grid.Row="0" Margin="353,23,373,32.8"  />
+        <ComboBox Grid.Column="1" Grid.Row="0" Margin="526,23,200,32.8"  />
+        <ComboBox Grid.Column="1" Grid.Row="0" Margin="698,23,28,32.8"   />
+
+        <Grid Grid.Column="1" Grid.Row="1" Grid.RowSpan="3">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Image Grid.RowSpan="2" Source="{Binding CurrentPicture.Base64, Converter={StaticResource Base64StringToBitmapImageConverter}}"/>
+
+            <StackPanel Grid.Column="1" Grid.Row="1" Orientation="Vertical" Margin="36,0.4,0,0.2">
+                <TextBlock Text="Commentaire :" Style="{StaticResource Description}"/>
+                <TextBlock Text="{Binding CurrentTransaction.Description}" FontWeight="Bold"/>
+            </StackPanel>
+
+            <StackPanel Grid.Column="1" Orientation="Horizontal" Margin="36,0,0,133.2" Grid.RowSpan="2">
+                <TextBlock Text="Surface (m²) : " Style="{StaticResource Description}"/>
+                <TextBlock Text="{Binding SelectedEstate.Surface}" FontWeight="Bold"/>
+            </StackPanel>
+
+            <StackPanel Grid.Column="1" Grid.Row="1" Orientation="Horizontal" Margin="36,133.4,0,133.2" Grid.RowSpan="3">
+                <TextBlock Text="Nombre de pièces : " Style="{StaticResource Description}"/>
+                <TextBlock Text="{Binding SelectedEstate.RoomsCount}" FontWeight="Bold"/>
+            </StackPanel>
+
+            <StackPanel Grid.Column="1" Grid.Row="3" Orientation="Horizontal" Margin="36,0.4,0,0.2">
+                <TextBlock Text="Nombre d'étages : " Style="{StaticResource Description}"/>
+                <TextBlock Text="{Binding SelectedEstate.FloorsCount}" FontWeight="Bold"/>
+            </StackPanel>
+
+        </Grid>
+    </Grid>
+</Page>

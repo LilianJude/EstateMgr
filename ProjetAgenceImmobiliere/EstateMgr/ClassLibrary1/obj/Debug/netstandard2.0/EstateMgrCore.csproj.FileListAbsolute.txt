@@ -1,0 +1,96 @@
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\EstateMgrCore.deps.json
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\EstateMgrCore.dll
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\EstateMgrCore.pdb
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\obj\Debug\netstandard2.0\EstateMgrCore.csproj.CoreCompileInputs.cache
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\obj\Debug\netstandard2.0\EstateMgrCore.AssemblyInfoInputs.cache
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\obj\Debug\netstandard2.0\EstateMgrCore.AssemblyInfo.cs
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\obj\Debug\netstandard2.0\EstateMgrCore.dll
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\obj\Debug\netstandard2.0\EstateMgrCore.pdb
+<<<<<<< HEAD
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\obj\Debug\netstandard2.0\EstateMgrCore.csprojResolveAssemblyReference.cache
+=======
+D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\EstateMgrCore.deps.json
+D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\EstateMgrCore.dll
+D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\EstateMgrCore.pdb
+D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\obj\Debug\netstandard2.0\EstateMgrCore.csprojResolveAssemblyReference.cache
+D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\obj\Debug\netstandard2.0\EstateMgrCore.csproj.CoreCompileInputs.cache
+D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\obj\Debug\netstandard2.0\EstateMgrCore.AssemblyInfoInputs.cache
+D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\obj\Debug\netstandard2.0\EstateMgrCore.AssemblyInfo.cs
+D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\obj\Debug\netstandard2.0\EstateMgrCore.dll
+D:\IUT\S4\NET\Estate_project\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\obj\Debug\netstandard2.0\EstateMgrCore.pdb
+>>>>>>> 95a24ab3e80924300d363293a3a7186f6c1d93a0
+D:\IUT\S4\NET\EstateManager\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\obj\Debug\netstandard2.0\EstateMgrCore.csprojResolveAssemblyReference.cache
+D:\IUT\S4\NET\EstateManager\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\obj\Debug\netstandard2.0\EstateMgrCore.csproj.CoreCompileInputs.cache
+D:\IUT\S4\NET\EstateManager\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\obj\Debug\netstandard2.0\EstateMgrCore.AssemblyInfoInputs.cache
+D:\IUT\S4\NET\EstateManager\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\obj\Debug\netstandard2.0\EstateMgrCore.AssemblyInfo.cs
+D:\IUT\S4\NET\EstateManager\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\obj\Debug\netstandard2.0\EstateMgrCore.dll
+D:\IUT\S4\NET\EstateManager\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\obj\Debug\netstandard2.0\EstateMgrCore.pdb
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\PresentationCore.dll
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\PresentationFramework.dll
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\WindowsBase.dll
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\System.Xaml.dll
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\UIAutomationTypes.dll
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\System.Configuration.dll
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\System.Windows.Input.Manipulations.dll
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\UIAutomationProvider.dll
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\System.Deployment.dll
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\ReachFramework.dll
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\System.Printing.dll
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\Accessibility.dll
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\System.Security.dll
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\System.Windows.Forms.dll
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\System.Runtime.Serialization.Formatters.Soap.dll
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\PresentationCore.xml
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\PresentationFramework.xml
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\WindowsBase.xml
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\System.Xaml.xml
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\UIAutomationTypes.xml
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\System.Configuration.xml
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\System.Windows.Input.Manipulations.xml
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\UIAutomationProvider.xml
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\System.Deployment.xml
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\ReachFramework.xml
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\System.Printing.xml
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\Accessibility.xml
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\System.Security.xml
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\System.Windows.Forms.xml
+D:\IUT\2EME ANNEE\.net\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\System.Runtime.Serialization.Formatters.Soap.xml
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\EstateMgrCore.deps.json
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\EstateMgrCore.dll
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\EstateMgrCore.pdb
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\PresentationCore.dll
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\PresentationFramework.dll
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\WindowsBase.dll
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\System.Xaml.dll
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\UIAutomationTypes.dll
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\System.Configuration.dll
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\System.Windows.Input.Manipulations.dll
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\UIAutomationProvider.dll
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\System.Deployment.dll
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\ReachFramework.dll
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\System.Printing.dll
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\Accessibility.dll
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\System.Security.dll
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\System.Windows.Forms.dll
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\System.Runtime.Serialization.Formatters.Soap.dll
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\PresentationCore.xml
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\PresentationFramework.xml
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\WindowsBase.xml
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\System.Xaml.xml
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\UIAutomationTypes.xml
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\System.Configuration.xml
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\System.Windows.Input.Manipulations.xml
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\UIAutomationProvider.xml
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\System.Deployment.xml
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\ReachFramework.xml
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\System.Printing.xml
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\Accessibility.xml
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\System.Security.xml
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\System.Windows.Forms.xml
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\bin\Debug\netstandard2.0\System.Runtime.Serialization.Formatters.Soap.xml
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\obj\Debug\netstandard2.0\EstateMgrCore.csprojResolveAssemblyReference.cache
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\obj\Debug\netstandard2.0\EstateMgrCore.csproj.CoreCompileInputs.cache
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\obj\Debug\netstandard2.0\EstateMgrCore.AssemblyInfoInputs.cache
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\obj\Debug\netstandard2.0\EstateMgrCore.AssemblyInfo.cs
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\obj\Debug\netstandard2.0\EstateMgrCore.dll
+D:\IUT\S4\estatemanager\ProjetAgenceImmobiliere\EstateMgr\ClassLibrary1\obj\Debug\netstandard2.0\EstateMgrCore.pdb

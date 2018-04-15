@@ -1,0 +1,28 @@
+﻿<Page x:Class="EstateMgr.DeleteWindow"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:EstateMgr"
+      mc:Ignorable="d" 
+      d:DesignHeight="620" d:DesignWidth="1100"
+      Title="DeleteWindow">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="*"/>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="800"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <ComboBox Grid.Column="0" Grid.Row="0" ItemsSource="{Binding Estates}" DisplayMemberPath="Title"  FontSize="25" SelectedItem="{Binding SelectedEstate}"></ComboBox>
+        <Button Grid.Column="0" Grid.Row="2" Content="Supprimer le bien" FontSize="25" Command="{Binding DeleteEstateCommand}"></Button>
+
+
+    </Grid>
+</Page>

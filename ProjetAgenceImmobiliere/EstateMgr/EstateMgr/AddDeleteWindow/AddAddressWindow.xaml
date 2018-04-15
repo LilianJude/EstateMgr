@@ -1,0 +1,42 @@
+﻿<Window x:Class="EstateMgr.AddAddressWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EstateMgr"
+        mc:Ignorable="d"
+        Title="AddAddressWindow" Height="500" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+    
+
+        <Label Grid.Column="0" Grid.Row="0" Content="Adresse : " FontSize="25"></Label>
+        <TextBox Grid.Column="1" Grid.Row="0" FontSize="25" Text="{Binding CurrentAddress.Adrress}"></TextBox>
+
+        <Label Grid.Column="0" Grid.Row="1" Content="Ville : " FontSize="25"></Label>
+        <TextBox Grid.Column="1" Grid.Row="1" FontSize="25" Text="{Binding CurrentAddress.City}"></TextBox>
+
+        <Label Grid.Column="0" Grid.Row="2" Content="Latitude : " FontSize="25"></Label>
+        <TextBox Grid.Column="1" Grid.Row="2" FontSize="25" Text="{Binding CurrentAddress.Latitude}"></TextBox>
+
+        <Label Grid.Column="0" Grid.Row="3" Content="Longitude : " FontSize="25"></Label>
+        <TextBox Grid.Column="1" Grid.Row="3" FontSize="25" Text="{Binding CurrentAddress.Longitude}"></TextBox>
+
+        <Label Grid.Column="0" Grid.Row="4" Content="Code postal : " FontSize="25"></Label>
+        <TextBox Grid.Column="1" Grid.Row="4" FontSize="25" Text="{Binding CurrentAddress.ZipCode}"></TextBox>
+
+        <Button Grid.Column="0" Grid.Row="6" Content="Valider" FontSize="25" Grid.ColumnSpan="2" Command="{Binding OKCommand}" CommandParameter="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=Window}}"></Button>
+    </Grid>
+</Window>

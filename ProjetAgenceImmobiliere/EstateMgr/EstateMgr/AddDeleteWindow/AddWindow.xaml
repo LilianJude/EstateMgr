@@ -1,0 +1,64 @@
+﻿<Page x:Class="EstateMgr.AddWindow"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:EstateMgr"
+      mc:Ignorable="d" 
+      d:DesignHeight="620" d:DesignWidth="1100"
+      Title="AddWindow">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Column="1" Grid.Row="0" Content="{Binding Error}" FontSize="25" Foreground="IndianRed"></Label>
+
+        <Label Grid.Column="0" Grid.Row="1" Content="Numéro d'étage : " FontSize="25"></Label>
+        <TextBox Grid.Column="1" Grid.Row="1" FontSize="25" Text="{Binding NewEstate.FloorNumber}"></TextBox>
+        
+        <Label Grid.Column="0" Grid.Row="2" Content="Nombre d'étages : " FontSize="25"></Label>
+        <TextBox Grid.Column="1" Grid.Row="2" FontSize="25" Text="{Binding NewEstate.FloorsCount}"></TextBox>
+
+
+        <Label Grid.Column="0" Grid.Row="3" Content="Taxe de propriété : " FontSize="25"></Label>
+        <TextBox Grid.Column="1" Grid.Row="3" FontSize="25" Text="{Binding NewEstate.PropertyTax}"></TextBox>
+
+        <Label Grid.Column="0" Grid.Row="4" Content="Nombre de chambres : " FontSize="25"></Label>
+        <TextBox Grid.Column="1" Grid.Row="4" FontSize="25" Text="{Binding NewEstate.RoomsCount}"></TextBox>
+
+        <Label Grid.Column="0" Grid.Row="5" Content="Surface : " FontSize="25"></Label>
+        <TextBox Grid.Column="1" Grid.Row="5" FontSize="25" Text="{Binding NewEstate.Surface}"></TextBox>
+        
+        <Label Grid.Column="0" Grid.Row="6" Content="Referent : " FontSize="25"></Label>
+        <ComboBox Grid.Column="1" Grid.Row="6" ItemsSource="{Binding Referents}" DisplayMemberPath="FullName"  FontSize="25" SelectedItem="{Binding SelectedReferent}"></ComboBox>
+        
+        <Label Grid.Column="0" Grid.Row="7" Content="Type : " FontSize="25"></Label>
+        <ComboBox Grid.Column="1" Grid.Row="7" FontSize="25" ItemsSource="{Binding Types}" SelectedItem="{Binding SelectedType}"></ComboBox>
+
+       <Label Grid.Column="0" Grid.Row="8" Content="Propriétaire : " FontSize="25"></Label>
+        <Button Grid.Column="1" Grid.Row="8" Content="Renseigner le propriétaire et l'adresse" FontSize="25" Visibility="{Binding ShowOwnerBtn, Converter={StaticResource BoolToVisibilityConverter}}" Command="{Binding OpenOwnerCommand}" CommandParameter="{x:Type local:AddOwnerWindow}"></Button>
+        <TextBlock Grid.Column="1" Grid.Row="8" FontSize="25" Text="{Binding ShowOwnerText}" Visibility="{Binding ShowOwner, Converter={StaticResource BoolToVisibilityConverter}}"></TextBlock>
+
+        <Label Grid.Column="0" Grid.Row="9" Content="Photo : " FontSize="25"></Label>
+        <Button Grid.Column="1" Grid.Row="9" Content="Choisir une photo" FontSize="25" Command="{Binding OpenPictureCommand}"></Button>
+
+        <Button Grid.Column="1" Grid.Row="11" Content="Valider" FontSize="25" Command="{Binding ValidateCommand}"></Button>
+    </Grid>
+</Page>
